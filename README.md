@@ -1,7 +1,7 @@
 # IfcDbExampleClient
 
 ## Description
-Client for server that is example of using IfcDb library
+Client for server that is example of using [IfcDb library](https://github.com/BelitskyYevgeniy/IfcDb)
 
 ## Start
 
