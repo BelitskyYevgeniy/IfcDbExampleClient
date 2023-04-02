@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/bundle.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>IFC.js web viewer</title>
+  </head>
+  <body>
+    
+    <header>
+      <div>
+        <form>
+          <select id="files-select">
+          </select>
+          <input id="get-file-btn" type="button" value="Get"/>
+        </form>
+        <input type="file" name="load" id="post-file-btn"/>
+      </div>
+    </header>
+    <div class="loader loader-hidden"></div>
+    <div class="canvas">
+      <canvas id="three-canvas"></canvas>
+    </div>
+    <script src="../dist/bundle.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
